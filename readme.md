@@ -1,0 +1,1 @@
+<img src="./preview.gif" alt="preview">
