@@ -29,7 +29,7 @@ body {
 .card:hover {
     z-index: 1111;
     transform: perspective(2000px) rotate(-10deg);
-    box-shadow: 10px 10px 50px rgb(219, 73, 32);
+    box-shadow: 10px 10px 50px rgb(65, 103, 40);
 }
 
 .card .img {
@@ -82,13 +82,8 @@ body {
     font-size: 1.1em;
 }
 
-.card .card-details h2::before,
-.card .card-details h2::after{
-    content: " 🕉 ";
-}
-
 .card:hover:nth-child(2) {
-    box-shadow: 10px 10px 50px rgb(195, 231, 15);
+    box-shadow: 10px 10px 50px rgb(231, 181, 15);
 }
 
 @media(max-width: 662px){
